@@ -22,6 +22,7 @@ type
     SaveDialog: TSaveDialog;
     OpenDialog: TOpenDialog;
     Button2: TButton;
+    ComboBox1: TComboBox;
     procedure FormCreate(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure DBGrid1CellClick(Column: TColumn);

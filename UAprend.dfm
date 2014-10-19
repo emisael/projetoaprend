@@ -91,6 +91,15 @@ object Frm: TFrm
     Caption = 'Button2'
     TabOrder = 6
   end
+  object ComboBox1: TComboBox
+    Left = 456
+    Top = 232
+    Width = 145
+    Height = 21
+    ItemHeight = 13
+    TabOrder = 7
+    Text = 'ComboBox1'
+  end
   object TabDados: TClientDataSet
     Aggregates = <>
     Params = <>
