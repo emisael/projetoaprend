@@ -1,6 +1,6 @@
 object Frm: TFrm
-  Left = 469
-  Top = 400
+  Left = 450
+  Top = 312
   Width = 679
   Height = 420
   Caption = 'Aprende'
@@ -81,6 +81,7 @@ object Frm: TFrm
     Height = 25
     Caption = 'Abrir'
     TabOrder = 5
+    OnClick = btAbrirClick
   end
   object TabDados: TClientDataSet
     Aggregates = <>

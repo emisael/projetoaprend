@@ -25,6 +25,7 @@ type
     procedure Button1Click(Sender: TObject);
     procedure DBGrid1CellClick(Column: TColumn);
     procedure btGravarClick(Sender: TObject);
+    procedure btAbrirClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -61,9 +62,12 @@ end;
 
 procedure TFrm.btGravarClick(Sender: TObject);
 begin
-  SaveDialog.InitialDir:= 'D:\Aprend\Dados.xml';
-  if SaveDialog.Execute then
-    TabDados.SaveToFile(SaveDialog.FileName);
+  TabDados.SaveToFile('D:\Aprend\Dados.xml');
+end;
+
+procedure TFrm.btAbrirClick(Sender: TObject);
+begin
+  TabDados.LoadFromFile('D:\Aprend\Dados.xml');
 end;
 
 end.

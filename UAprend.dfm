@@ -37,7 +37,7 @@ object Frm: TFrm
   end
   object DBGrid1: TDBGrid
     Left = 216
-    Top = 64
+    Top = 56
     Width = 161
     Height = 120
     DataSource = DataSource
@@ -82,6 +82,14 @@ object Frm: TFrm
     Caption = 'Abrir'
     TabOrder = 5
     OnClick = btAbrirClick
+  end
+  object Button2: TButton
+    Left = 40
+    Top = 280
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 6
   end
   object TabDados: TClientDataSet
     Aggregates = <>

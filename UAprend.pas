@@ -21,6 +21,7 @@ type
     btAbrir: TButton;
     SaveDialog: TSaveDialog;
     OpenDialog: TOpenDialog;
+    Button2: TButton;
     procedure FormCreate(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure DBGrid1CellClick(Column: TColumn);
